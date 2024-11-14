@@ -3,9 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulario Pizza</title>
 </head>
 <body>
-    
+    <h1>Pide tu Pizza</h1>
+    <form action="">
+        <label>Nombre: </label>
+        <input type="text" id="nombre" name="nombre"/>
+        <br><br>
+        <label> Apellidos: </label>
+        <input type="text" id="ap" name="ap"/>
+        <br><br>
+        <label>Correo: </label>
+        <input type="email" id="correo" name="correo"/>
+        <br><br>
+        <label>Dirección:</label>
+        <input type="text" id="direccion" name="direccion"/>
+        <br><br>
+        <label>Hora de entrega</label>
+        <input type="time" id="tiempo" name="tiempo" />
+        <br><br>
+        <label>Seleccione su sabor de pizza</label>
+        <select name="seleccion" id="seleccion">
+            <option value=""  disabled selected>Seleccione</option>
+            <option value="napo">pizza Napolitana</option>
+            <option value="peppe">pizza de pepperoni</option>
+            <option value="pv">pizza vegana</option>
+            <option value="quesos">pizza de 4 quesos</option>
+        </select>
+        <br><br>
+        <button type="submit">Enviar Pedido</button>
+    </form>
 </body>
-</html>
+</html> 
